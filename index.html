@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery Tương Tác</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        #image {
+            width: 400px;
+            height: 300px;
+            background-color: #ccc;
+            background-image: url('');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            line-height: 300px;
+            font-size: 20px;
+            margin: 0 auto;
+            border: 2px solid #000;
+        }
+        .preview {
+            margin-top: 20px;
+        }
+        .preview img {
+            width: 100px;
+            height: 75px;
+            margin: 10px;
+            border: 1px solid #000;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bộ Sưu Tập Ảnh Tương Tác</h1>
+    <div id="image">Hover over an image below to display here.</div>
+    <div class="preview">
+        <img src="https://static.wikitide.net/stellasorawiki/6/62/Chitose.png" alt="Ảnh 1: Chitose in Stella Sora">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5FH1g5G-e3OIoBCCEzf3k9eSne6YnOPDJ8g&s" alt="Ảnh 2: Freesia in Stella Sora">
+        <img src="https://www.kaiden.gg/img/stella-sora/characters/portraits/head_12701_XXL.png" alt="Ảnh 3: Teresa in Stella Sora">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
